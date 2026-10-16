@@ -66,28 +66,28 @@ shots = [
     {
         "question": "What is the main purpose of the subject?",
         "context": "The subject aims to improve efficiency and solve common problems.",
-        "answer": "The main purpose is to improve efficiency and address common problems."
+        "answer": "The main purpose is to improve efficiency and address common problems.",
     },
     {
         "question": "What are the key features?",
         "context": "The system includes automation, data analysis, and real-time monitoring.",
-        "answer": "The key features are:\n- Automation\n- Data analysis\n- Real-time monitoring"
+        "answer": "The key features are:\n- Automation\n- Data analysis\n- Real-time monitoring",
     },
     {
         "question": "Why is this approach useful?",
         "context": "This approach reduces manual effort and improves accuracy.",
-        "answer": "This approach is useful because it reduces manual effort and improves accuracy."
+        "answer": "This approach is useful because it reduces manual effort and improves accuracy.",
     },
     {
         "question": "When was the system introduced?",
         "context": "The system improves efficiency and supports automated workflows.",
-        "answer": "Not enough information."
+        "answer": "Not enough information.",
     },
     {
         "question": "What are the advantages and disadvantages?",
         "context": "The method saves time but requires additional computational resources.",
-        "answer": "Advantages:\n- Saves time.\n\nDisadvantages:\n- Requires additional computational resources."
-    }
+        "answer": "Advantages:\n- Saves time.\n\nDisadvantages:\n- Requires additional computational resources.",
+    },
 ]
 
 context = "Spider-Man: Brand New Day follows Peter Parker as he tries to rebuild his life while continuing to protect New York City. As new threats emerge, Spider-Man faces dangerous enemies and unexpected challenges that test his courage and intelligence. Caught between his responsibilities as a hero and his desire for a normal life, Peter must discover what it truly means to start over."
