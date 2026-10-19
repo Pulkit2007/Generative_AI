@@ -1,4 +1,4 @@
-from itertools import chain
+#DOCUMENT RETRIEVAL
 
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
@@ -30,9 +30,10 @@ qa_chain = RetrievalQA.from_chain_type(
     return_source_documents = True
 )
 
-query = "What does the document say about Adaptive Radiation?"
+query = "What does the document say about Evolution and Ecosystem?"
 response = qa_chain.invoke({"query":query})
 print(response["result"])
 print("-"*80)
 for source in response["source_documents"]:
     print(source.metadata)
+
