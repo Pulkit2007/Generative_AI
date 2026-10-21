@@ -4,7 +4,18 @@ import yfinance as yf
 from crewai.tools import tool
 
 
+
+@tool("Live Stock Information Tool")
 def get_stock_price(stock_symbol : str) -> str:
+    """
+    Retrieves the latest stock price and other relevant info for a given stock symbol using Yahoo Finance.
+
+    Parameters:
+        stock_symbol (str): The ticker symbol of the stock (e.g., AAPL, TSLA, MSFT).
+
+    Returns:
+        str: A summary of the stock's current price, daily change, and other key data.
+    """
     print("Fetching the data for", stock_symbol)
 
     stock = yf.Ticker(stock_symbol)
@@ -24,5 +35,5 @@ def get_stock_price(stock_symbol : str) -> str:
         f"Change : {change} ({round(change_percent, 2)}%)\n" # type: ignore
     )
 
-print(get_stock_price("MSFT"))
+# print(get_stock_price("RELIANCE.NS"))
 
