@@ -24,5 +24,5 @@ def get_stock_price(stock_symbol : str) -> str:
         f"Change : {change} ({round(change_percent, 2)}%)\n" # type: ignore
     )
 
-print(get_stock_price("TSLA"))
+print(get_stock_price("MSFT"))
 
